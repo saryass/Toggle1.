@@ -1,0 +1,30 @@
+.carBox {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    position: relative;
+    padding-top: 50px;
+}
+
+.car {
+    border-radius: 15px;
+    box-shadow: 10px 8px 10px rgb(94, 93, 93);
+    cursor: pointer;
+}
+
+#btn {
+    display: flex;
+    justify-content: center;
+}
+
+#myBTN {
+    padding: 10px 20px;
+    width: 200px;
+    border: none;
+    cursor: pointer;
+    transition: 100ms;
+}
+
+#myBTN:hover {
+    background-color: rgb(231, 230, 228);
+}
